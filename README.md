@@ -3,10 +3,8 @@
 <p align="center">Laventar Userbot</p>
 
 - A Telegram Userbot Written In Pyrogram
-- Codes doesn't matter how many clients booted it's work separatly with every client! Faster af!
-- Deploy Upto 50 Ids!
 
-<p align="center"><a href="https://t.me/TheUpdatesChannel"><img src="https://telegra.ph/file/723d8ef9fb7e721135221.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/beta_botz"><img src="https://graph.org/file/876df78ce11a5ca68fd30.jpg" width="300"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 
