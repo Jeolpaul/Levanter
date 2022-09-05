@@ -22,15 +22,7 @@ SUDO_USERS = SUDO_USERS
 DB_URL = DB_URL
 STRING_SESSION = STRING_SESSION
 
-class App(Client):
-
-    def __init__(self):
-        super().__init__(
-            "tgbot",
-            api_id=API_ID,
-            api_hash=API_HASH,
-            session_name=STRING_SESSION,
-            plugins={"root": "Levanter"},
+plugins={"root": "Levanter"},
         )
 
 if not STRING_SESSION:
@@ -49,7 +41,15 @@ if not API_HASH:
     logging.error("No ApiHash Found! Exiting!")
     sys.exit()
 
+class App(Client):
 
+    def __init__(self):
+        super().__init__(
+            "tgbot",
+            api_id=API_ID,
+            api_hash=API_HASH,
+            session_name=STRING_SESSION,
+            
 
 idle()
 
