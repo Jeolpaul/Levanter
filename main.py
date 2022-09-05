@@ -48,7 +48,7 @@ class App(Client):
             "tgbot",
             api_id=API_ID,
             api_hash=API_HASH,
-            session_name=STRING_SESSION,
+            string_session=STRING_SESSION,
             
 
 idle()
