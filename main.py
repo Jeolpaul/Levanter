@@ -1,4 +1,5 @@
 import logging
+import sys
 from pyrogram import Client, filters, idle
 from pyrogram.types import *
 import requests
@@ -21,21 +22,32 @@ SUDO_USERS = SUDO_USERS
 DB_URL = DB_URL
 STRING_SESSION = STRING_SESSION
 
+class App(Client):
+
+    def __init__(self):
+        super().__init__(
+            "tgbot",
+            api_id=API_ID,
+            api_hash=API_HASH,
+            session_name=STRING_SESSION,
+            plugins={"root": "Levanter"},
+        )
+
 if not STRING_SESSION:
     logging.error("No String Session Found! Exiting!")
-    quit(1)
+    sys.exit()
 
 if not API_ID:
     logging.error("No Api-ID Found! Exiting!")
-    quit(1)
+    sys.exit()
 
-if not MONGO_DB:
-    logging.error("No MongoDB Found! Exiting!")
-    quit(1)
+if not DB_URL:
+    logging.error("No DB Found! Exiting!")
+    sys.exit()
 
 if not API_HASH:
     logging.error("No ApiHash Found! Exiting!")
-    quit(1)
+    sys.exit()
 
 
 
