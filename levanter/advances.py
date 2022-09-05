@@ -17,14 +17,14 @@ from handlers.cache.data import *
 from config import SUDO_USERS
 from main import ALIVE_PIC
 
-Zaid = f"**꧁ 𒈞zαι∂ υѕєявσт𒈞꧂**\n\n"
+Zaid = f"**꧁ 𒈞lαvєntαr υѕєявσт𒈞꧂**\n\n"
 Zaid += f"━───────╯•╰───────━\n"
 Zaid += f"➠ **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ** : `3.10.5`\n"
 Zaid += f"➠ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ** : `{__version__}`\n"
 Zaid += f"➠ **ᴠᴇʀsɪᴏɴ**  : `{2.0}`\n"
-Zaid += f"➠ **ᴄʜᴀɴɴᴇʟ** : [❝𝐂𝐥𝐢𝐜𝐤❞](https://t.me/TheUpdatesChannel)\n"
+Zaid += f"➠ **ᴄʜᴀɴɴᴇʟ** : [❝𝐂𝐥𝐢𝐜𝐤❞](https://t.me/beta_botz)\n"
 Zaid += f"━───────╮•╭───────━\n\n"
-Zaid += f"➠ **𒆜ʍǟӄɛ ʏօʊʀ օառ 𒆜:** [❝𝐂𝐥𝐢𝐜𝐤❞](https://gitHub.com/Itz-Zaid/Zaid-Userbot)"
+Zaid += f"➠ **𒆜ʍǟӄɛ ʏօʊʀ օառ 𒆜:** [❝𝐂𝐥𝐢𝐜𝐤❞](https://github.com/Jeolpaul/Levanter)"
 
 
 usage = f"** ❌ Wrong Usage ❌** \n Type `.help advanced`"
@@ -94,7 +94,7 @@ syntax:
 syntax:
 ‣ `.eye`
 
-**꧁ 𒈞zαι∂ υѕєявσт𒈞꧂**
+**꧁ 𒈞lαvєntαr υѕєявσт𒈞꧂**
 ➖➖➖➖➖➖➖➖➖➖➖➖
 """
 
@@ -115,7 +115,7 @@ command:
 ✘**Dm Raid:** raid in Dm of Any individual Users
 ‣ .dmraid "count" "username or user id"
 
-**꧁ 𒈞zαι∂ υѕєявσт𒈞꧂**
+**꧁ 𒈞lαvєntαr υѕєявσт𒈞꧂**
 ➖➖➖➖➖➖➖➖➖➖➖➖
 """
 
@@ -136,7 +136,7 @@ leave_help = f"""
 
 ‣ `.leave` "group Username or chat user id"
 
-**꧁ 𒈞zαι∂ υѕєявσт𒈞꧂**
+**꧁ 𒈞lαvєntαr υѕєявσт𒈞꧂**
 ➖➖➖➖➖➖➖➖➖➖➖➖
 """
 
@@ -162,7 +162,7 @@ Specially designed for inviting active members.
 
 ‣ `.inviteall` "group Username or chat user id"
 
-**꧁ 𒈞zαι∂ υѕєявσт𒈞꧂**
+**꧁ 𒈞lαvєntαr υѕєявσт𒈞꧂**
 ➖➖➖➖➖➖➖➖➖➖➖➖
 """
 
@@ -176,7 +176,7 @@ userbot_help = f"""
 
 ‣ .restart : To Restart Your Bots
 
-**꧁ 𒈞zαι∂ υѕєявσт𒈞꧂**
+**꧁ 𒈞lαvєntαr υѕєявσт𒈞꧂**
 ➖➖➖➖➖➖➖➖➖➖➖➖
 """
 
@@ -190,7 +190,7 @@ command:
   ‣`.dreplyraid` "userid To deactivate replyraid (abusive words)"
 
 
-**꧁ 𒈞zαι∂ υѕєявσт𒈞꧂**
+**꧁ 𒈞lαvєntαr υѕєявσт𒈞꧂**
 ➖➖➖➖➖➖➖➖➖➖➖➖
 """
 
@@ -203,7 +203,7 @@ commands:
 2) .setbio "coustom Bio"
 3) .setpic "reply to media"
 
-**꧁ 𒈞zαι∂ υѕєявσт𒈞꧂**
+**꧁ 𒈞lαvєntαr υѕєявσт𒈞꧂**
 ➖➖➖➖➖➖➖➖➖➖➖➖
 """
 
@@ -224,7 +224,7 @@ help_menu = f"""
 ✘**Type** .help "category" **to get all syntax in that category and its usage**
 ✘**Example**: `.help replyraid`
 
-**꧁ 𒈞zαι∂ υѕєявσт𒈞꧂**
+**꧁ 𒈞lαvєntαr υѕєявσт𒈞꧂**
 ➖➖➖➖➖➖➖➖➖➖➖➖
 """
 
@@ -277,7 +277,7 @@ async def pornspam(xspam: Client, e: Message):
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["ping"], [".", "!", "/"]))
 async def oahgfg(xspam: Client, e: Message):
-      await e.reply_text(f"═══════════════════\n ꧁ 𒈞zαι∂ υѕєявσт𒈞꧂ \n═══════════════════")
+      await e.reply_text(f"═══════════════════\n ꧁ 𒈞lαvєntαr υѕєявσт𒈞꧂ \n═══════════════════")
 
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["broadcast", "gcast"], [".", "!", "/"]))
