@@ -5,7 +5,7 @@ import requests
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from helpers.basic import edit_or_reply, get_text
-from handlers.help import *
+from levanter.help import *
 
 
 @Client.on_message(filters.command('trump', ["."]) & filters.me)
