@@ -11,7 +11,7 @@ from helpers.basic_helpers import (
     iter_chats,
 )
 
-from handlers.help import *
+from levanter.help import *
 add_command_help(
     "global",
     [
