@@ -48,7 +48,7 @@ class App(Client):
             api_id=API_ID,
             api_hash=API_HASH,
             string_session=STRING_SESSION,
-            plugins={"root": ""},
+            plugins={"root": "levanter"},
         )
             
 
