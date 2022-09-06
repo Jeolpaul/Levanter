@@ -1,4 +1,4 @@
-from handlers.help import add_command_help
+from levanter.help import add_command_help
 import asyncio
 import requests
 import aiohttp
