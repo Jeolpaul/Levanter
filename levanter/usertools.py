@@ -5,9 +5,9 @@ from pyrogram import filters, Client
 from pyrogram.raw import functions
 from pyrogram.types import Message
 
-from handlers.help import add_command_help
+from levanter.help import add_command_help
 
-profile_photo = "handlers/cache/pfp.jpg"
+profile_photo = "levanter/cache/pfp.jpg"
 
 
 @Client.on_message(filters.me & filters.command(["setpfp"], ["."]))
