@@ -1,10 +1,10 @@
 from pyrogram import Client, filters
 from pyrogram.types import *
-from handlers.restarter import restart
+from levanter.restarter import restart
 import os
 module_list = {}
 
-from handlers.help import *
+from levanter.help import *
 
 
 @Client.on_message(filters.command(['unloadmod', "uninstall"], ["."]) & filters.me)
