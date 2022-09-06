@@ -2,7 +2,7 @@
 #~ Ported from Friday[Telethon]
 #~ ©FridayUB
 from pyrogram import *
-from handlers.help import *
+from levanter.help import *
 from pyrogram.types import *
 from helpers.basic import edit_or_reply
 
