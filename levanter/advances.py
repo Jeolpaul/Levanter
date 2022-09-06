@@ -448,7 +448,7 @@ add_command_help(
 from pyrogram import filters
 
 from typing import Tuple
-from handlers.help import *
+from levanter.help import *
 import random
 from levanter.cache.data import *
 from config import SUDO_USERS
