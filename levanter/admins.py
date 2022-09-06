@@ -6,7 +6,7 @@ from pyrogram.types import Message, ChatPermissions
 
 from helpers.PyroHelpers import GetUserMentionable
 from helpers.adminHelpers import CheckAdmin, CheckReplyAdmin, RestrictFailed
-from handlers.help import add_command_help
+from levanter.help import add_command_help
 
 
 
