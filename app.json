@@ -4,7 +4,7 @@
     "logo": "https://graph.org/file/876df78ce11a5ca68fd30.jpg",
     "repository": "https://github.com/Jeolpaul/Levanter",
     "env": {
-        "STRING_SESSION": {
+        "STRING_SESSION1": {
             "description": "pyrogram string session here",
             "required": true
         },
