@@ -6,7 +6,7 @@ from pyrogram.types import ChatPermissions, Message
 import requests
 from bs4 import BeautifulSoup
 from googlesearch import search
-from handlers.help import *
+from levanter.help import *
 
 def googlesearch(query):
     co=1
