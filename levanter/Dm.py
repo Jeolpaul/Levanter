@@ -1,7 +1,7 @@
 from pyrogram import filters, Client
 from pyrogram.types import *
 from main import *
-from handlers.help import *
+from levanter.help import *
 
 
 @Client.on_message(filters.me & filters.command(["directmessage", "dm"], [".", "!", "/"]))
