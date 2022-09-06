@@ -7,7 +7,7 @@ from pyrogram import filters, Client
 from pyrogram.types import Message
 from pymediainfo import MediaInfo
 from typing import Tuple
-from handlers.help import add_command_help
+from levanter.help import add_command_help
 
 async def convert_vid_to_vidnote(input_vid: str, final_path: str):
     """ Convert Video To Video Note (Round) """
