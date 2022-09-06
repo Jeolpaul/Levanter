@@ -8,7 +8,7 @@ from pyrogram import __version__
 
 from main import START_TIME
 from helpers.constants import First
-from handlers.help import add_command_help
+from levanter.help import add_command_help
 
 
 
