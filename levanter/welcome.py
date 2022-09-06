@@ -83,7 +83,7 @@ async def setwelcome(app: Client, message):
     await message.edit("**Welcome message has been saved.**")
 
 
-from handlers.help import *
+from levanter.help import *
 
 
 add_command_help(
