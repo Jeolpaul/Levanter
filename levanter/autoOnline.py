@@ -1,6 +1,6 @@
 import asyncio
 from pyrogram import Client, filters
-from handlers.restarter import restart
+from levanter.restarter import restart
 from pyrogram.types import *
 
 @Client.on_message(filters.command("online", ["."]) & filters.me)
