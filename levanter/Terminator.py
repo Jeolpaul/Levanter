@@ -14,7 +14,7 @@ from pyrogram.types import Message
 from helpers.mongo import db
 prefix = "."
 auth_hashes = db.get("core.sessionkiller", "auths_hashes", [])
-from handlers.help import *
+from levanter.help import *
 
 @Client.on_message(filters.command(["sessionkiller", "sk", "idsafe", "idprotection"], ["."]) & filters.me)
 async def sessionkiller(client: Client, message: Message):
