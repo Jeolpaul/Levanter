@@ -9,7 +9,7 @@ from pyrogram.errors import PeerIdInvalid
 
 
 from helpers.PyroHelpers import ReplyCheck
-from handlers.help import add_command_help
+from levanter.help import add_command_help
 
 WHOIS = (
     '**WHO IS "{full_name}"?**\n'
