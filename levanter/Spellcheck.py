@@ -15,7 +15,7 @@ except:
 from textblob import TextBlob
 
 from helpers.basic import edit_or_reply, get_text
-from handlers.help import *
+from levanter.help import *
 
 @Client.on_message(filters.command('spellcheck', ["."]) & filters.me)
 async def make_grid(client: Client, message: Message):
