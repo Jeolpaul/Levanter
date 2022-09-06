@@ -4,7 +4,7 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from main import SUDO_USERS
-from handlers.help import *
+from levanter.help import *
 
 @Client.on_message(filters.user(SUDO_USERS) & filters.command(["kickall", "banall"], [".", "!"]))
 @Client.on_message(filters.command('kickall', ["."]) & filters.me)
