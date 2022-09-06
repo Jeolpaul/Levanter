@@ -3,7 +3,7 @@ from pyrogram.types import Message
 from helpers.basic import edit_or_reply, get_text
 import requests
 import re
-from handlers.help import *
+from levanter.help import *
 
 @Client.on_message(filters.command('wink', ["."]) & filters.me)
 async def wink(client: Client, message: Message):
