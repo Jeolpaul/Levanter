@@ -2,7 +2,7 @@ import os
 import wget
 import random
 
-from handlers.help import *
+from levanter.help import *
 from pyrogram import Client, filters
 from pyrogram.types import *
 from helpers.basic import edit_or_reply, get_text
@@ -44,7 +44,7 @@ async def rlogo(client: Client, message: Message):
         font=font,
         fill=(random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)),
     )
-    file_name = "LogoBy@Zaid.png"
+    file_name = "LogoBylαvєntαr.png"
     await client.send_chat_action(message.chat.id, "upload_photo")
     img.save(file_name, "png")
     if message.reply_to_message:
