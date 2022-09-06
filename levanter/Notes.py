@@ -3,7 +3,7 @@ from pyrogram import filters, Client
 from helpers.pyrohelper import get_arg
 import helpers.mongo.notesdb as Zaid
 from main import LOG_GROUP
-from handlers.help import *
+from levanter.help import *
 
 LOG_CHAT = LOG_GROUP
 
