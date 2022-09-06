@@ -10,7 +10,7 @@ from helpers.PyroHelpers import SpeedConvert
 from helpers.constants import WWW
 from helpers.expand import expand_url
 from helpers.shorten import shorten_url
-from handlers.help import add_command_help
+from levanter.help import add_command_help
 from main import *
 
 @Client.on_message(filters.command(["speed", "speedtest"], ".") & filters.me)
