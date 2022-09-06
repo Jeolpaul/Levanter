@@ -2,7 +2,7 @@
 #© By Itz-zaid
 import asyncio
 from pyrogram import filters, Client
-from handlers.help import *
+from levanter.help import *
 from pyrogram.types import *
 from pyrogram import __version__
 import os
@@ -12,7 +12,7 @@ import re
 from random import choice
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from handlers.cache.data import *
+from levanter.cache.data import *
 
 from config import SUDO_USERS
 from main import ALIVE_PIC
