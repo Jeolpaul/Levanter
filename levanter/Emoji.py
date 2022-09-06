@@ -2,7 +2,7 @@
 
 from pyrogram import *
 from pyrogram.types import *
-from handlers.help import *
+from levanter.help import *
 
 from helpers.basic import edit_or_reply, get_text
 
