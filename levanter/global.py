@@ -23,7 +23,7 @@ add_command_help(
     ],
 )
 
-from handlers import devs_id
+from levanter import devs_id
 from config import SUDO_USERS as AFS
 
 """
