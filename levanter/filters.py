@@ -154,7 +154,7 @@ async def del_all_filters(client: Client, message):
     await pablo.edit("**Deleted All The Filters Successfully!!**")
 
 
-from handlers.help import *
+from levanter.help import *
 
 
 add_command_help(
