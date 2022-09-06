@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from handlers.help import *
+from levanter.help import *
 
 
 @Client.on_message(filters.command("duck", ["."]) & filters.me)
