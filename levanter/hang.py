@@ -11,7 +11,7 @@ import re
 from random import choice
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from handlers.cache.data import *
+from levanter.cache.data import *
 
 
 usage = f"** ❌ Wrong Usage ❌** \n Type `.help hang`"
