@@ -22,7 +22,6 @@ SUDO_USERS = SUDO_USERS
 DB_URL = DB_URL
 STRING_SESSION = STRING_SESSION
 
-plugins={"root": "Levanter"},
         
 
 if not STRING_SESSION:
@@ -49,6 +48,8 @@ class App(Client):
             api_id=API_ID,
             api_hash=API_HASH,
             string_session=STRING_SESSION,
+            plugins={"root": ""},
+        )
             
 
 idle()
