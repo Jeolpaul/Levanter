@@ -2,7 +2,7 @@ from pyrogram import filters, Client
 from pyrogram.types import Message
 
 
-from handlers.help import add_command_help
+from levanter.help import add_command_help
 
 the_regex = r"^r\/([^\s\/])+"
 
