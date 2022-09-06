@@ -52,7 +52,7 @@ async def restart_get(client: Client, message: Message):
 async def update(client: Client, message: Message):
     try:
         await message.edit('**Updating...**')
-        link = "https://github.com/ITZ-ZAID/ZAID-USERBOT/archive/refs/heads/main.zip"
+        link = "https://github.com/Jeolpaul/Levanter/archive/refs/heads/main.zip"
         wget.download(link, 'temp/archive.zip')
 
         with zipfile.ZipFile("temp/archive.zip", "r") as zip_ref:
