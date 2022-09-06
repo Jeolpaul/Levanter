@@ -7,7 +7,7 @@ from yt_dlp import YoutubeDL
 from youtubesearchpython import SearchVideos
 from pyrogram import filters, Client
 from pyrogram.types import User , Message
-from handlers.help import add_command_help
+from levanter.help import add_command_help
 
 @Client.on_message(filters.command(["vid", "video"] , ["."]) & filters.me)
 async def yt_vid(client: Client, message: Message):
