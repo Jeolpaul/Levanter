@@ -47,12 +47,12 @@ else:
 Owner = LOG_GROUP
 
 if STRING_SESSION1:
-    bot1 = Client(session_name= STRING_SESSION1, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot1 = Client(session_name= STRING_SESSION1, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="levanter"))
 else:
     bot1 = None
 
 if STRING_SESSION2:
-    bot2 = Client(session_name= STRING_SESSION2, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="handlers"))
+    bot2 = Client(session_name= STRING_SESSION2, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="levanter"))
 else:
     bot2 = None
 
