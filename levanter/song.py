@@ -11,7 +11,7 @@ from pyrogram.types import Message
 from urllib.request import urlretrieve
 import requests as r
 import wget
-from handlers.help import add_command_help
+from levanter.help import add_command_help
 
 
 def get_text(message: Message) -> [None, str]:
