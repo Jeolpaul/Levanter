@@ -49,7 +49,7 @@ async def quotly(bot: Client, message: Message):
         )
 
 
-from handlers.help import *
+from levanter.help import *
 add_command_help(
     "quote",
     [
