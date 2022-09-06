@@ -5,7 +5,7 @@ import requests
 from pyrogram import Client, filters
 from pyrogram.types import *
 from helpers.basic import edit_or_reply
-from handlers.help import *
+from levanter.help import *
 
 async def s_paste(message, extension="txt"):
     siteurl = "https://spaceb.in/api/v1/documents/"
