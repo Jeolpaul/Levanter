@@ -23,7 +23,7 @@ DB_URL = DB_URL
 STRING_SESSION = STRING_SESSION
 
 plugins={"root": "Levanter"},
-        )
+        
 
 if not STRING_SESSION:
     logging.error("No String Session Found! Exiting!")
