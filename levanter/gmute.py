@@ -11,7 +11,7 @@ from helpers.basic_helpers import (
     iter_chats,
 )
 
-from handlers import devs_id
+from levanter import devs_id
 from config import SUDO_USERS as AFS
 
 
