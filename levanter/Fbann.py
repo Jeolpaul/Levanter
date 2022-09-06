@@ -14,7 +14,7 @@ from helpers.SQL.fban_db import (
     rmfed,
 )
 from main import LOG_GROUP as FBAN_GROUP
-from handlers.help import *
+from levanter.help import *
 
 @Client.on_message(filters.command(["fadd", "addfed"], ".") & filters.me)
 async def free_fbans(client, message):
