@@ -1,7 +1,7 @@
 from datetime import datetime
 from pyrogram import filters, Client
 from pyrogram.types import Message
-from handlers.help import *
+from levanter.help import *
 
 @Client.on_message(filters.command(["stats", "status"], ".") & filters.me)
 async def stats(client: Client, message: Message):
@@ -42,7 +42,7 @@ async def stats(client: Client, message: Message):
 🏷️**ʏᴏᴜ ᴀʀᴇ ᴀᴅᴍɪɴꜱ ɪɴ {} ᴄʜᴀᴛꜱ.**
 🏷️**ʙᴏᴛꜱ ɪɴ ʏᴏᴜʀ ᴘʀɪᴠᴀᴛᴇ = {}**
 
-⚠️**ꜰᴇᴀᴛᴄʜᴇᴅ ʙʏ ᴜꜱɪɴɢ @ZaidUserBot**""".format(
+⚠️**ꜰᴇᴀᴛᴄʜᴇᴅ ʙʏ ᴜꜱɪɴɢ lαvєntαr**""".format(
             ms, u, g, sg, c, a_chat, b
         )
     )
