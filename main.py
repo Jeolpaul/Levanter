@@ -63,9 +63,11 @@ START_TIME = datetime.now()
 if bot1:
     bot1.start()
     bot1.join_chat("beta_botz")
+    bot1.send_message(chat_id=message.chat.id, text="Laventar Has Started \nType  .alive To Check I'M Alive \nType .help To Know My Commands)
 if bot2:
     bot2.start()
     bot2.join_chat("beta_botz")
+    bot2.send_message(chat_id=message.chat.id, text="Laventar Has Started \nType  .alive To Check I'M Alive \nType .help To Know My Commands)
 
 idle()
 
