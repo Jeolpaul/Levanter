@@ -28,7 +28,7 @@ async def alive(client: Client, e: Message):
                 [[
                     InlineKeyboardButton(
                         "• 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 •", url="https://t.me/beta_botz")
-                ], [
+                ],[
                     InlineKeyboardButton(
                         "• 𝐑𝐞𝐩𝐨 •", url="https://github.com/Jeolpaul/Levanter")
                 ]],
@@ -49,8 +49,7 @@ async def alive(client: Client, e: Message):
             [
                 [
                     InlineKeyboardButton("• 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 •", url="https://t.me/beta_botz"),
-                ],
-                [
+                ],[
                     InlineKeyboardButton("• 𝐑𝐞𝐩𝐨 •", url="https://github.com/Jeolpaul/Levanter"),
                 ],
             ],
