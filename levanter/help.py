@@ -48,7 +48,7 @@ async def module_help(client: Client, message: Message):
                 "`Please specify a valid module name.`", parse_mode="markdown"
             )
 
-    await asyncio.sleep(10)
+    await asyncio.sleep(300)
     await message.delete()
 
 
