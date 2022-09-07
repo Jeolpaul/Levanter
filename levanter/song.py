@@ -75,7 +75,7 @@ async def song(client: Client, message: Message):
         return
     c_time = time.time()
     file_sung= f"{ytdl_data['id']}.mp3"
-    capy = f"**Song Name ➠** `{vid_title}` \n**Requested For ➠** `{input_str}` \n**Channel ➠** `{uploade_r}` \n**Link ➠** `{url}`"
+    capy = f"**Song Name ➠** `{vid_title}` \n**Requested For ➠** `{input_str}` \n**Channel ➠** `{uploade_r}` \n**Link ➠** {url} \nPowered By [Laventar](https://github.com/Jeolpaul/Levanter)"
     await client.send_audio(
         message.chat.id,
         audio=open(file_sung, "rb"),
