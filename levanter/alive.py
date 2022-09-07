@@ -14,12 +14,12 @@ async def alive(client: Client, e: Message):
     try:
         if bot:
             ids += 1
-        Alive_msg = f"𝐋𝐀𝐕𝐄𝐍𝐓𝐀𝐑 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐈𝐬 𝐎𝐧 𝐅𝐢𝐫𝐞 🔥 \n\n"
+        Alive_msg = f"𝐋𝐀𝐕𝐄𝐍𝐓𝐀𝐑 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄 𝐁𝐀𝐁𝐘 💘\n\n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n"
         Alive_msg += f"► Vᴇʀsɪᴏɴ : `Beta.0.1` \n"
         Alive_msg += f"► ᴘʏʀᴏ ᴠᴇʀsɪᴏɴ : `{pyro_vr}` \n"
         Alive_msg += f"► Aᴄᴛɪᴠᴇ IDs : `{ids}` \n"
-        Alive_msg += f"► Sᴜᴘᴘᴏʀᴛ : [Jᴏɪɴ.](https://t.me/beta_support) \n"
+        Alive_msg += f"► ꜱᴏᴜʀᴄᴇ : [ʟᴀᴠᴇɴᴛᴀʀ](https://github.com/Jeolpaul/Levanter) \n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n\n"
         await e.reply_photo(
         photo=ALIVE_PIC,
@@ -35,11 +35,12 @@ async def alive(client: Client, e: Message):
         ),
     ) 
     except Exception as lol:         
-        Alive_msg = f"𝐋𝐀𝐕𝐄𝐍𝐓𝐀𝐑 𝐔𝐬𝐞𝐫𝐛𝐨𝐭 𝐈𝐬 𝐎𝐧 𝐅𝐢𝐫𝐞 🔥 \n\n"
+        Alive_msg = f"𝐋𝐀𝐕𝐄𝐍𝐓𝐀𝐑 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄 𝐁𝐀𝐁𝐘 💘\n\n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n"
-        Alive_msg += f"► ᴠᴇʀsɪᴏɴ : `Beta.0.1` \n"
-        Alive_msg += f"► Pʏʀᴏ ᴠᴇʀsɪᴏɴ : `1.4.15` \n"
-        Alive_msg += f"► Sᴜᴘᴘᴏʀᴛ : [Jᴏɪɴ](https://t.me/beta_support) \n"
+        Alive_msg += f"► Vᴇʀsɪᴏɴ : `Beta.0.1` \n"
+        Alive_msg += f"► ᴘʏʀᴏ ᴠᴇʀsɪᴏɴ : `{pyro_vr}` \n"
+        Alive_msg += f"► Aᴄᴛɪᴠᴇ IDs : `{ids}` \n"
+        Alive_msg += f"► ꜱᴏᴜʀᴄᴇ : [ʟᴀᴠᴇɴᴛᴀʀ](https://github.com/Jeolpaul/Levanter) \n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n\n"
         await e.reply_photo(
         photo=ALIVE_PIC,
