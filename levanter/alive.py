@@ -24,16 +24,14 @@ async def alive(client: Client, e: Message):
         await e.reply_photo(
         photo=ALIVE_PIC,
         caption=Alive_msg,
-        reply_markup=InlineKeyboardMarkup(
-                [[
-                    InlineKeyboardButton(
-                        "• 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 •", url="https://t.me/beta_botz")
-                ],[
-                    InlineKeyboardButton(
-                        "• 𝐑𝐞𝐩𝐨 •", url="https://github.com/Jeolpaul/Levanter")
-                ]],
-        ),
-    ) 
+        reply_markup=InlineKeyboardMarkup( [[
+            InlineKeyboardButton("• 𝐒𝐮𝐩𝐩𝐨𝐫𝐭", url="https://t.me/BETA_SUPPORT"),
+            InlineKeyboardButton("• 𝐂𝐡𝐚𝐧𝐧𝐞𝐥", url="https://t.me/Beta_BoTZ")
+            ],[            
+            InlineKeyboardButton("• 𝐑𝐞𝐩𝐨", url="https://github.com/Jeolpaul/Levanter")               
+            ]]
+            )
+        )
     except Exception as lol:         
         Alive_msg = f"𝐋𝐀𝐕𝐄𝐍𝐓𝐀𝐑 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄 𝐁𝐀𝐁𝐘 💘\n\n"
         Alive_msg += f"◈ ━━━━━━ ◆ ━━━━━━ ◈ \n"
