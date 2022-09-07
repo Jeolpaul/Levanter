@@ -52,7 +52,7 @@ else:
     bot1 = None
 
 if STRING_SESSION2:
-    bot1 = Client(session_name= STRING_SESSION2, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="levanter"))
+    bot2 = Client(session_name= STRING_SESSION2, api_id = API_ID, api_hash = API_HASH , plugins=dict(root="levanter"))
 else:
     bot2 = None
 
