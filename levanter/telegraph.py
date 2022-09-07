@@ -38,7 +38,7 @@ async def telegraph(client: Client, message: Message):
         await client.send_message(message.chat.id, document)
     else:
         await message.reply_text(
-            f"**Document passed to: [Telegra.ph](https://telegra.ph{response[0]})**",
+            f"**Document passed to: [Telegra.ph](https://graph.org{response[0]})**",
         )
     finally:
         os.remove(download_location)
