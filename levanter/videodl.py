@@ -50,7 +50,7 @@ async def yt_vid(client: Client, message: Message):
         return
     c_time = time.time()
     file_path= f"{ytdl_data['id']}.mp4"
-    capy = f"**Video Name ➠** `{vid_title}` \n**Requested For ➠** `{input_str}` \n**Channel ➠** `{uploade_r}` \n**Link ➠** `{url}`"
+    capy = f"**Video Name ➠** `{vid_title}` \n**Requested For ➠** `{input_str}` \n**Channel ➠** `{uploade_r}` \n**Link ➠** [Click Here]({url}) \n\nPowered By [Laventar](https://github.com/Jeolpaul/Levanter)"
     await client.send_video(
         message.chat.id,
         video=open(file_path, "rb"),
