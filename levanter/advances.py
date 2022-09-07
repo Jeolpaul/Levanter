@@ -405,7 +405,7 @@ async def raid(xspam: Client, e: Message):
                     await asyncio.sleep(0.10)
       elif e.reply_to_message:
           msg_id = e.reply_to_message.message_id
-          counts = int(Zaid[0])
+          counts = 5
           if int(e.chat.id) in GROUP:
                return await e.reply_text("**Sorry !! i Can't Spam Here.**")
           user_id = e.reply_to_message.from_user.id
