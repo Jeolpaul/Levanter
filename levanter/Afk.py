@@ -32,11 +32,8 @@ async def collect_afk_messages(UserBot: Client, message: Message):
 
         if GetChatID(message) not in CHAT_TYPE:
             text = (
-                f"`Beep boop. This is an automated message.\n"
-                f"I am not available right now.\n"
-                f"Last seen: {last_seen}\n"
-                f"Reason: ```{AFK_REASON.upper()}```\n"
-                f"See you after I'm done doing whatever I'm doing.`"
+                f"Reason: {AFK_REASON.upper()}\n"
+                f"Magic'sOf [Levanter](https://github.com/Jeolpaul/Levanter)"
             )
             await UserBot.send_message(
                 chat_id=GetChatID(message),
@@ -48,7 +45,6 @@ async def collect_afk_messages(UserBot: Client, message: Message):
         elif GetChatID(message) in CHAT_TYPE:
             if CHAT_TYPE[GetChatID(message)] == 50:
                 text = (
-                    f"`This is an automated message\n"
                     f"Last seen: {last_seen}\n"
                     f"This is the 10th time I've told you I'm AFK right now..\n"
                     f"I'll get to you when I get to you.\n"
@@ -65,7 +61,7 @@ async def collect_afk_messages(UserBot: Client, message: Message):
                 text = (
                     f"`Hey I'm still not back yet.\n"
                     f"Last seen: {last_seen}\n"
-                    f"Still busy: ```{AFK_REASON.upper()}```\n"
+                    f"Still busy: {AFK_REASON.upper()}\n"
                     f"Try pinging a bit later.`"
                 )
                 await UserBot.send_message(
