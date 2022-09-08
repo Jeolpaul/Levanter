@@ -33,7 +33,6 @@ async def collect_afk_messages(UserBot: Client, message: Message):
         if GetChatID(message) not in CHAT_TYPE:
             text = (
                 f"{AFK_REASON.upper()}\n"
-                f"Magic'sOf [Levanter](https://github.com/Jeolpaul/Levanter)"
             )
             await UserBot.send_message(
                 chat_id=GetChatID(message),
