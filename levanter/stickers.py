@@ -117,7 +117,7 @@ async def kang_stick(app: Client, message: Message):
     pack = 1
     nm = message.from_user.username
     packname = f"@{nm} Kang Pack {pack}"
-    packshortname = f"ZAIDUB_{message.from_user.id}_{pack}"
+    packshortname = f"Levanter_{message.from_user.id}_{pack}"
     emoji = "🤔"
     try:
         a_emoji = a_emoji.strip()
@@ -182,7 +182,7 @@ async def kang_stick(app: Client, message: Message):
             prev_pack = int(pack) - 1
             await kang_msg.edit(f"He he, Kang Pack Number `{prev_pack}` is Full Of Stickers! Now Switching to `{pack}` Pack!")
             packname = f"@{nm} Kang Pack {pack}"
-            packshortname = f"ZAIDUB_{message.from_user.id}_{pack}"
+            packshortname = f"Levanter_{message.from_user.id}_{pack}"
             if is_anim:
                 packshortname += "_animated"
                 packname += " Animated"
